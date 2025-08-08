@@ -1,5 +1,5 @@
 import cv2
-image_path = "/home/divya/cv_projects/images/test_img.jpg"
+image_path = "../images/test_img.jpg"
 image = cv2.imread(image_path)
 if image is None:
    print(f"Error:{image_path}")
